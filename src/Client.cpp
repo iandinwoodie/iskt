@@ -1,7 +1,4 @@
 #include "Client.h"
-#include <QCoreApplication>
-#include <QDebug>
-#include <QString>
 #include <iostream>
 
 namespace

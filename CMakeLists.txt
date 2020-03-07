@@ -16,7 +16,9 @@ find_package(Qt5Network REQUIRED)
 
 add_library(isktlib SHARED
   include/Client.h
+  include/Server.h
   src/Client.cpp
+  src/Server.cpp
 )
 target_include_directories(isktlib
   PUBLIC

@@ -1,8 +1,8 @@
 #ifndef INCLUDE_CLIENT_H
 #define INCLUDE_CLIENT_H
 
-#include <QObject>
-#include <QTcpSocket>
+#include <QtCore>
+#include <QtNetwork>
 #include <string>
 
 class Client : public QObject
